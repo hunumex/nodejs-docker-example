@@ -42,7 +42,7 @@ le point (.) après `nodejs-docker-example .` est nécessaire dans la commande d
 
 Cela démarre un conteneur Docker avec l'application et mappe le port 3000 de votre machine locale au port 3000 du conteneur.
 
-5. Ouvrez un navigateur et accédez à `http://localhost:3000`. Vous devriez voir la page d'accueil stylisée avec le message "Bienvenue TIPA dans notre première image Docker".
+5. Ouvrez un navigateur et accédez à `http://localhost:3000`. Vous devriez voir la page d'accueil stylisée avec le message "Bienvenue TIPA dans notre première image Docker" et deux boutons pour télécharger les fichiers `Docker-Presentation.docx` et `Docker-Presentation.pdf`.
 
 Pour arrêter le conteneur Docker, vous pouvez utiliser la commande suivante : `docker ps`
 

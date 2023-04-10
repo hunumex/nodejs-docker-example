@@ -7,6 +7,7 @@
   <style>
     body {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -16,7 +17,23 @@
       background-color: #f0f0f0;
     }
     h1 {
-      background-color: #4CAF50;
+      background-color: #ff7b23;
+      padding: 20px;
+      color: white;
+      border-radius: 8px;
+      font-size: 2rem;
+      margin: 30px auto;
+    }
+    div{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        margin: 10px auto;
+    }
+    p{
+      border: 2px solid #ff7b23;
       padding: 20px;
       color: white;
       border-radius: 8px;
@@ -27,5 +44,17 @@
 </head>
 <body>
   <h1>Bienvenue TIPA dans notre première image Docker</h1>
+  <div>
+    <p>
+        <a href="/files/Docker-Presentation.docx" download="Docker-Presentation.docx">
+            <button>Télécharger la présentation en format DOCX</button>
+        </a>
+      </p>
+      <p>
+        <a href="/files/Docker-Presentation.pdf" download="Docker-Presentation.pdf">
+            <button>Télécharger la présentation en format PDF</button>
+        </a>
+      </p>
+  </div>
 </body>
 </html>
