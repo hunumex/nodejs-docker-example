@@ -10,10 +10,6 @@ Ce projet contient une présentation sur Docker, une plateforme de conteneurisat
 - Astuces et bonnes pratiques
 - Ressources pour apprendre Docker
 
-## Prérequis
-
-Pour visualiser la présentation, assurez-vous d'avoir un lecteur de fichiers PDF ou un éditeur de documents Word compatible avec les formats .docx et .pdf.
-
 ## Structure du projet
 
 - `Docker-Presentation.docx` : Document Word contenant la présentation sur Docker.
@@ -61,6 +57,3 @@ Remplacez `CONTAINER_ID` par l'ID du conteneur que vous avez trouvé précédemm
 
 Si vous souhaitez contribuer à ce projet, veuillez soumettre une demande de fusion (Pull Request) avec vos modifications ou vos ajouts.
 
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
