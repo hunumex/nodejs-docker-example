@@ -10,12 +10,6 @@ Ce projet contient une présentation sur Docker, une plateforme de conteneurisat
 - Astuces et bonnes pratiques
 - Ressources pour apprendre Docker
 
-## Structure du projet
-
-- `Docker-Presentation.docx` : Document Word contenant la présentation sur Docker.
-- `Docker-Presentation.pdf` : Version PDF de la présentation pour ceux qui préfèrent le format PDF.
-- `README.md` : Ce fichier, qui contient des informations sur le projet et comment l'utiliser.
-
 ## Comment utiliser ce projet
 
 1. Clonez ce dépôt ou téléchargez les fichiers sur votre ordinateur local.
