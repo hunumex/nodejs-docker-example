@@ -31,9 +31,11 @@ Ce projet contient une présentation sur Docker, une plateforme de conteneurisat
 
 1. Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
 
-2. Accédez au dossier du projet : `cd nodejs-docker-example`
+2. Accédez au dossier du projet : `cd nodejs-docker-example .`
 
-3. Construisez l'image Docker : `docker build -t nodejs-docker-example`
+3. Construisez l'image Docker : `docker build -t nodejs-docker-example .`
+
+le point (.) après `nodejs-docker-example .` est nécessaire dans la commande docker build. Il indique le contexte de construction à utiliser pour construire l'image Docker. Le point (.) représente le répertoire courant, qui est le dossier du projet dans ce cas.
 
 4. Exécutez l'application dans un conteneur Docker : `docker run -p 3000:3000 -d nodejs-docker-example`
 
