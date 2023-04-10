@@ -1,21 +1,6 @@
 # Présentation de Docker
 
-Ce projet contient une présentation sur Docker, une plateforme de conteneurisation pour le développement et le déploiement d'applications. La présentation couvre les aspects suivants de Docker :
-
-- Introduction à Docker
-- Avantages et inconvénients
-- Technologies similaires
-- Utilité et raisons d'utiliser Docker
-- Cas d'utilisation
-- Astuces et bonnes pratiques
-- Ressources pour apprendre Docker
-
-## Comment utiliser ce projet
-
-1. Clonez ce dépôt ou téléchargez les fichiers sur votre ordinateur local.
-2. Ouvrez le fichier `Docker-Presentation.docx` ou `Docker-Presentation.pdf` dans un éditeur de documents Word ou un lecteur PDF, respectivement.
-3. Parcourez la présentation pour vous familiariser avec les concepts de Docker, les avantages, les inconvénients, les technologies similaires et les cas d'utilisation.
-4. Consultez les ressources supplémentaires mentionnées dans la présentation pour approfondir vos connaissances sur Docker.
+Ce projet contient une présentation sur Docker, une plateforme de conteneurisation pour le développement et le déploiement d'applications.
 
 ## Prérequis
 
