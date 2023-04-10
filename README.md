@@ -12,16 +12,19 @@ Ce projet contient une présentation sur Docker, une plateforme de conteneurisat
 
 2. Accédez au dossier du projet : `cd nodejs-docker-example .`
 
-3. Construisez l'image Docker : `docker build -t nodejs-docker-example .`
+3. Exécutez la commande suivante pour installer les dépendances du projet : `npm install`
+Cela installera toutes les dépendances requises pour le projet, telles que définies dans le fichier `package.json`.
+
+4. Construisez l'image Docker : `docker build -t nodejs-docker-example .`
 
 le point (.) après `nodejs-docker-example .` est nécessaire dans la commande docker build. Il indique le contexte de construction à utiliser pour construire l'image Docker. Le point (.) représente le répertoire courant, qui est le dossier du projet dans ce cas.
 
-4. Exécutez l'application dans un conteneur Docker : `docker run -p 3000:3000 -d nodejs-docker-example`
+5. Exécutez l'application dans un conteneur Docker : `docker run -p 3000:3000 -d nodejs-docker-example`
 
 
 Cela démarre un conteneur Docker avec l'application et mappe le port 3000 de votre machine locale au port 3000 du conteneur.
 
-5. Ouvrez un navigateur et accédez à `http://localhost:3000`. Vous devriez voir la page d'accueil stylisée avec le message "Bienvenue TIPA dans notre première image Docker" et deux boutons pour télécharger les fichiers `Docker-Presentation.docx` et `Docker-Presentation.pdf`.
+6. Ouvrez un navigateur et accédez à `http://localhost:3000`. Vous devriez voir la page d'accueil stylisée avec le message "Bienvenue TIPA dans notre première image Docker" et deux boutons pour télécharger les fichiers `Docker-Presentation.docx` et `Docker-Presentation.pdf`.
 
 Pour arrêter le conteneur Docker, vous pouvez utiliser la commande suivante : `docker ps`
 
